@@ -17,7 +17,7 @@ CREATE TABLE posts (
     image varchar(500),
     descrizione varchar(1000),
     index index_user(user),
-    tips VARCHAR(500);
+    tips VARCHAR(500),
     foreign key(user) references users(id) on delete cascade on update cascade
 ) Engine = InnoDB;
 
