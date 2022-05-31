@@ -1,0 +1,98 @@
+html{
+    background-color: rgb(218, 116, 0);
+    font-size: 24px;
+}
+body{
+    margin-top: 10%;
+
+}
+main{
+    margin: auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: white;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+header h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Header-font", serif;
+    color: purple;
+    letter-spacing: 1px;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 5px 5px 10px;
+}
+
+label.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5px 5px 10px;
+  }
+
+input[type=text], input[type=password] {
+    background-color: rgb(223, 223, 223);
+    padding: 5px;
+    border: 2px solid rgb(207, 157, 157);
+    color: black;
+    border-radius: 4px;
+    margin-left: 50px;
+}
+input:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+
+div{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.errore p{
+    color: red;
+    width: 100%;
+    margin: 10px 5px 5px 10px;  
+   
+    
+}
+
+
+
+
+
+input[type=submit] {
+    background-color: rgb(189, 112, 189);
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    color: rgb(95, 95, 95);
+    cursor: default;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+}
+
+input[type = submit].ok {
+    background-color: purple;
+    color: black;
+    cursor: pointer;
+}
+
+label a{
+    font-size: 20px;
+}
+
+#last_label{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
